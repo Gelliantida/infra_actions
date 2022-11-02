@@ -1,4 +1,4 @@
-from django.apps import AppConfig  # Временный коммент
+from django.apps import AppConfig
 
 
 class InfraAppConfig(AppConfig):
