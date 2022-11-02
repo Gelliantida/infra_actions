@@ -58,6 +58,6 @@ jobs:
         # Пуш образа в Docker Hub
         uses: docker/build-push-action@v2
         with:
-          push: true
+          push: True
           tags: ${{ secrets.DOCKER_USERNAME }}/infra_actions:latest
 
